@@ -38,7 +38,7 @@
                             <label for="burger-name">Enter a burger name:</label>
                             <input type="text" id="burger-name" name="burger_name">
                         </div>
-                        <a href="#submit-spot" id="submit-spot" type="submit" class="btn btn-success sub">Submit</button></a>
+                        <a href="#scroll-spot" id="submit-spot" type="submit" class="btn btn-success sub">Submit</button></a>
                     </form>
             </div>
         </div>
@@ -55,7 +55,7 @@
                         {{this.burger_name}}
                         <form class="form-inline" action="/{{this.id}}?_method=PUT" method="POST">
                           <input type="hidden" name="devoured" value="false">
-                           <a href="#submit-spot" id="submit-spot" class="btn btn-success btn-sm" type="submit">Devour it!</button></a>
+                           <a href="#scroll-spot" id="submit-spot" class="btn btn-success btn-sm" type="submit">Devour it!</button></a>
                         </form>
                       </li>
                     {{/unless}}
