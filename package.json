@@ -1,7 +1,7 @@
 {
-    "name": "burger",
+    "name": "tummy-burger",
     "version": "1.0.0",
-    "description": "Burgerize Me! is a restaurant app that lets users input the names of burgers they'd like to eat, then devour them.",
+    "description": "Tummy burger is a restaurant app that lets users input the names of burgers they'd like to eat, then devour them.",
     "main": "server.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
